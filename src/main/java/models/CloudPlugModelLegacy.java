@@ -6,15 +6,15 @@ package models;
  * @date 07.09.2016
  * @copyright Timur Tasci, ISW Uni Stuttgart
  */
-public class CloudPlugModel {
+public class CloudPlugModelLegacy {
 
     private String[] signals;
     private String[][] values;
 
-    public CloudPlugModel() {
+    public CloudPlugModelLegacy() {
     }
 
-    public CloudPlugModel(String[] signals, String[][] values) {
+    public CloudPlugModelLegacy(String[] signals, String[][] values) {
         this.signals = signals;
         this.values = values;
     }
